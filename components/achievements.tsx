@@ -4,20 +4,14 @@ const achievements = [
   {
     title: "Codeforces Pupil",
     description: "Achieved a max Codeforces rating of 1338 (Pupil)",
-    link: "#",
+    link: "https://codeforces.com/profile/OMEGA_17",
     icon: Code,
   },
   {
     title: "HackerRank 6-Star",
     description: "Achieved 6-star rating in Problem Solving on HackerRank",
-    link: "#",
+    link: "https://www.hackerrank.com/profile/abhaypawar_23021",
     icon: Star,
-  },
-  {
-    title: "Academic Excellence",
-    description: "Maintaining a CGPA of 9.41 in Computer Engineering",
-    link: "#",
-    icon: Award,
   },
 ]
 
