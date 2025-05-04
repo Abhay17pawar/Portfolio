@@ -9,7 +9,7 @@ const projects = [
     description:
       "A job search platform that scrapes 100+ job listings, improving search efficiency. Features include automated email alerts and secure payment processing.",
     image: "/placeholder.svg?height=300&width=600",
-    github: "https://github.com",
+    github: "https://github.com/Abhay17pawar/JobHub",
     technologies: [
       "React.js",
       "Tailwind CSS",
@@ -28,7 +28,7 @@ const projects = [
     description:
       "An AI-powered tool that scans prescriptions using OCR and provides instant, easy-to-understand medication information with natural language processing.",
     image: "/images/mediscan.png",
-    github: "https://github.com",
+    github: "https://github.com/Abhay17pawar/MediScan",
     technologies: ["Next.js", "FastAPI", "NeonDB", "OCR", "NLP"],
   },
 ]
