@@ -27,7 +27,7 @@ export default function Home() {
               <p className="text-zinc-300 leading-relaxed">
                 A dynamic and goal-oriented individual with a deep passion for problem-solving and a strong desire to
                 gain hands-on experience across multiple areas of the software industry. Currently pursuing B.E. in
-                Computer Engineering at Army Institute Of Technology, Pune with a CGPA of 9.41.
+                Computer Engineering at Army Institute Of Technology, Pune.
               </p>
             </div>
           </div>
