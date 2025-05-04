@@ -70,7 +70,7 @@ export default function Hero() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="www.linkedin.com/in/abhay-pawar-b51174288"
+              href="https://www.linkedin.com/in/abhay-pawar-b51174288/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-zinc-900 hover:bg-zinc-800 transition-colors"
