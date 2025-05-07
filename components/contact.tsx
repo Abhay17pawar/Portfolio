@@ -17,6 +17,7 @@ export default function Contact() {
     message: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [debugInfo, setDebugInfo] = useState<string | null>(null)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -26,6 +27,7 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setDebugInfo(null)
 
     try {
       const response = await fetch("/api/send-email", {
@@ -51,6 +53,7 @@ export default function Contact() {
         // Reset form
         setFormData({ name: "", email: "", message: "" })
       } else {
+        setDebugInfo(JSON.stringify(data, null, 2))
         throw new Error(data.error || "Failed to send message")
       }
     } catch (error) {
@@ -219,6 +222,12 @@ export default function Contact() {
                 )}
               </Button>
             </form>
+
+            {debugInfo && (
+              <div className="mt-4 p-3 bg-red-900/30 border border-red-700 rounded-md">
+                <p className="text-xs text-white font-mono overflow-auto">{debugInfo}</p>
+              </div>
+            )}
           </div>
         </div>
       </div>

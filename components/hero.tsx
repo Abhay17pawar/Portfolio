@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -53,8 +53,9 @@ export default function Hero() {
               </Link>
             </Button>
             <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-              <Link href="#projects" className="flex items-center gap-2">
-                Explore Projects
+              <Link href="/resume/abhay-pawar-resume.pdf" className="flex items-center gap-2" download target="_blank">
+                <FileText className="h-5 w-5 mr-1" />
+                Download Resume
               </Link>
             </Button>
           </div>
