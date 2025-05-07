@@ -53,7 +53,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
-              <Link href="/resume/abhay-pawar-resume.pdf" className="flex items-center gap-2" download target="_blank">
+              <Link href="https://drive.google.com/file/d/1oSpkMLOnfeRpNPd26jXp0aDwNab9zhaF/view?usp=sharing" className="flex items-center gap-2" download target="_blank">
                 <FileText className="h-5 w-5 mr-1" />
                 Download Resume
               </Link>
